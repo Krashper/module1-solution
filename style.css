@@ -1,0 +1,11 @@
+.empty {
+    color: red;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.not_empty {
+    color: green;
+    padding: 10px;
+    border: 2px solid green;
+}
