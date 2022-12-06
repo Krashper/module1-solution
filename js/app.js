@@ -1,4 +1,4 @@
-/*(function() {
+(function() {
 'use strict';
 angular.module('MyFirstApp', [])
 
@@ -24,6 +24,6 @@ function printRation($scope) {
         }
     }
 }
-})(); */
+})();
 
-!function(){"use strict";function l(l){l.ration="",l.classValue="",l.finalValue="",l.checkRation=function(){let e=l.ration.replace(/[.,%]/g,"").split(" ").filter(l=>""!=l).length;e>3?(l.finalValue="Too much!",l.classValue="not_empty"):e>0?(l.finalValue="Enjoy!",l.classValue="not_empty"):(l.finalValue="Please enter data first",l.classValue="empty")}}angular.module("MyFirstApp",[]).controller("AppController",l),l.$inject=["$scope"]}();
+//!function(){"use strict";function l(l){l.ration="",l.classValue="",l.finalValue="",l.checkRation=function(){let e=l.ration.replace(/[.,%]/g,"").split(" ").filter(l=>""!=l).length;e>3?(l.finalValue="Too much!",l.classValue="not_empty"):e>0?(l.finalValue="Enjoy!",l.classValue="not_empty"):(l.finalValue="Please enter data first",l.classValue="empty")}}angular.module("MyFirstApp",[]).controller("AppController",l),l.$inject=["$scope"]}();
